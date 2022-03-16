@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Registration Form</title>
+</head>
+<body class="home">
+	<form class="registration-form" action="confirm.php" method="POST">
+		<h1>Cavendish University Hostel Registration Form</h1>
+		<h4>Please fill in this form carefully, all fiiled are required</h4>
+		
+		<table class="table">
+			<tr>
+				<td class="td">
+					Full Name:<span>*</span>
+				
+					<input type="text" name="fullname" placeholder="Full Name" required>
+				</td>
+			</tr>
+			<tr>
+				<td class="td">
+					Reg. No:<span>*</span>
+				
+					<input type="text" name="regno" placeholder="Reg. No" required>
+				</td>
+			</tr>
+
+			<tr>
+				<td class="td">
+					Phone No:<span>*</span>
+				
+					<input type="text" name="phoneno" placeholder="Phone No" required>
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="td">
+					Email:<span>*</span>
+				
+					<input type="email" name="email" placeholder="Email" required>
+				</td>
+			</tr>
+
+			<tr>
+				<td class="td">
+					Faculty:<span>*</span>
+				
+					<select name="faculty" required>
+					<option value="">Select Faculty</option>
+					<option value="Science">Faculty of Science</option>
+					<option value="Humanities">Faculty of Humanities</option>
+					<option value="Social Science">Faculty of Social Science</option>
+					<option value="Law">Faculty of Law</option>
+					<option value="Medicine">Faculty of Medicine</option>
+					
+					</select>
+					
+				</td>
+			</tr>
+
+
+			<tr>
+				<td class="td">
+					Gender:<span>*</span>
+					<select type="radio" name="gender" required>
+						<option value="">Select Gender</option>
+						<option value="m">Male</option>
+						<option value="f">Female</option>
+
+					</select>
+				
+				
+				</td>
+			</tr>
+			<tr>
+				<td class="td">
+					Nationality:<span>*</span>
+				
+					<select name="nationality" required>
+					<option value="">Your Country</option>
+					<option value="nigeria">Nigeria</option>
+					<option value="uganda">Uganda</option>
+					<option value="somalia">Somalia</option>
+					<option value="congo">Congo</option>
+					<option value="kenya">Kenya</option>
+					<option value="canada">Canada</option>
+					<option value="india">India</option>
+					<option value="america">America</option>
+					</select>
+					
+				</td>
+			</tr>
+
+			<tr>
+				<td class="td">
+					<button type="submit">Register</button>
+				</td>
+			</tr>
+		</table>
+		
+	</form>
+
+</body>
+</html>

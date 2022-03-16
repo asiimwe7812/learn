@@ -1,0 +1,209 @@
+
+.home {
+	background-color: green;
+
+	
+}
+
+.body-success {
+	background-color: lavenderblush;
+}
+
+
+.registration-form {
+	position: center;
+	
+	
+	
+}
+.registration-form h1 {
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 40px 0;
+	color: skyblue;
+	font-family: sans-serif;
+	font-weight: bold;
+
+}
+
+.registration-form h4{
+	text-align: center;
+	color: red;
+	font-size: 20px;
+}
+
+.registration-form span{
+	color: red;
+}
+
+
+
+.registration-form tr {
+	font-size: 22px;
+	margin: 15px 0;
+	font-variant-caps: all-petite-caps;
+	color: white;
+	font-weight: bold;
+
+
+}
+
+
+.registration-form input {
+	font-size: 16px;
+	padding: 15px 10px;
+	width: 100%;
+	border: 0;
+	border-radius: 6px;
+	outline: none;
+}
+
+.registration-form button {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px;
+	width: 100px;
+	border-radius: 5px;
+	border: 0;
+	background-color: blue;
+	margin: 20px 0;
+	color: white;
+}
+
+
+.registration-form button:hover {
+	color: red;
+	background-color: white;
+
+	
+}
+
+.table {
+	padding-right: 0%;
+	padding-left: 30%;
+	width: ;
+}
+
+
+
+select {
+	
+	width: 27%;
+	padding: 1%;
+}
+
+.td {
+	width: 600px;
+	padding: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.success {
+	color: blue;
+	text-align: center;
+	padding-top: 60px;
+}
+
+.success a {
+	
+	color: red;
+
+
+}
+
+.success button {
+	border: 0;
+	padding: 5px;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 5px;
+	background-color: blue;
+}
+
+
+.success a:hover {
+	
+	color: whitesmoke;
+
+}
+
+.confirm h1 {
+	text-align: center;
+	padding-top: 30px;
+	font-style: oblique;
+	background-color: green;
+	padding-bottom: 20px;
+	color: white;
+}
+
+.confirm h3 {
+	text-align: center;
+	color: red;
+	font-style: italic;
+}
+
+.confirm {
+	background-color: lightgrey;
+}
+
+
+.confirm-button {
+	padding-top: 10px;
+	color: black;
+	text-align: center;
+
+}
+
+.confirm-button-main {
+	color: white;
+	border: 0;
+	padding: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 5px;
+	background-color: green;
+}
+
+.confirm-button-main:hover {
+	background-color: blue;
+	color: red;
+}
+
+.center {
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	width: 50%;
+	padding: 10px;
+	
+	
+}
+
+.center tr {
+	text-align: left;
+}
+
+.center th {
+	text-align: center;
+}
+
+
+.center td {
+	padding: 10px;
+}
+
+.center th {
+	background-color: green;
+	color: white;
+}
